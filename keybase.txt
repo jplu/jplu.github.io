@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jplu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jplu.github.io
+  * I am jplu (https://keybase.io/jplu) on keybase.
+  * I have a public key ASBwiQ-AOP1DalhpTkxc1yGUfEUW6lRTBYE7fdwmD4N2FAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012070890f8038fd436a58694e4c5cd721947c4516ea545305813b7ddc260f8376140a",
+      "host": "keybase.io",
+      "kid": "012070890f8038fd436a58694e4c5cd721947c4516ea545305813b7ddc260f8376140a",
+      "uid": "35761fe2b585ab42782e9b4f752f8f19",
+      "username": "jplu"
+    },
+    "merkle_root": {
+      "ctime": 1567600337,
+      "hash": "d0a1ba5a95cf7925b4d9bf312a853705ee202a943c2ec2b0f49cde05b8109cab5c1c974f88287d7ead2832ae002d2669e8afee672461a84751fa753ec091dc57",
+      "hash_meta": "0096fd931f1a2e0b0ca75f9ee19d7a1bffd2c40908b65204e4bccf919338b71f",
+      "seqno": 6168218
+    },
+    "service": {
+      "entropy": "aiDj4AcBoODmiuTz1sYDWC9T",
+      "hostname": "jplu.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.0"
+  },
+  "ctime": 1567600355,
+  "expire_in": 504576000,
+  "prev": "577b27d40377c144ef17440ebcf784d30c73c7c2b2c934a24de083cddec5bde3",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcIkPgDj9Q2pYaU5MXNchlHxFFupUUwWBO33cJg+DdhQKp3BheWxvYWTESpcCBsQgV3sn1AN3wUTvF0QOvPeE0wxzx8KyyTSiTeCDzd7FvePEIAt4jaxcwGr8gzTmMaaxMVFRX7YrOkp87vyki3K3rE+4AgHCo3NpZ8RAc8yD7ibEWyxCSr3ZwVwpt5AWk/GIHsNLS38Ha99gPcnLWIjOO7JPwgbJIzppA6sekxsbobMQt6DuiVlx/xvLDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILQCQNmH7sYW21F4E5+Kyal+ZmHzxJcxPwKKfuquoGPSo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jplu
+
+==================================================================
