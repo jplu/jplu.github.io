@@ -57,7 +57,7 @@
                         <h3>2019</h3>
                         <ul>
                             <li>
-                                Plu J., Troncy R., Rizzo G.  (2019) <a href="publications/Plu_Troncy_Rizzo-SWJ2019">ADEL: ADaptable Entity Linking : A hybrid approach to link entities with linked data for information extraction</a>. In <a href="http://www.semantic-web-journal.net/">Semantic Web Journal (SWJ), Special Issue on Linked Data for Information Extraction</a>
+                                Plu J., Troncy R., Rizzo G.  (2019) <a target="_blank" href="publications/Plu_Troncy_Rizzo-SWJ2019.pdf">ADEL: ADaptable Entity Linking : A hybrid approach to link entities with linked data for information extraction</a>. In <a href="http://www.semantic-web-journal.net/">Semantic Web Journal (SWJ), Special Issue on Linked Data for Information Extraction</a>
                             </li>
                         </ul>
                         <h3>2018</h3>
@@ -69,13 +69,13 @@
                                 Plu J., Cousot K., Lafourcade M., Troncy R., Rizzo G.  (2018) <a target="_blank" href="publications/Plu_etal-TALN2018.pdf">JeuxDeLiens: Word embeddings and path-based similarity for entity lnking using the french JeuxDeMots lexical semantic network</a>. In: <a target="_blank" href="https://project.inria.fr/coriataln2018/fr/">25ème conférence sur le Traitement Automatique des Langues Naturelles (TALN'18)</a>
                             </li>
                             <li>
-                                Plu J., Prokofyev R., Tonon A., Cudré-Mauroux P., Difallah D. E., Troncy R., Rizzo G. (2018) <a href="publications/Plu_etal-LREC2018.pdf">Sanaphor++: A Combination of Deep Neural Networks and Semantics for Coreference Resolution</a>. In <a href="http://lrec2018.lrec-conf.org/en/">11th edition of the Language Resources and Evaluation Conference (LREC)</a>, Miyazaki, Japan.
+                                Plu J., Prokofyev R., Tonon A., Cudré-Mauroux P., Difallah D. E., Troncy R., Rizzo G. (2018) <a target="_blank" href="publications/Plu_etal-LREC2018.pdf">Sanaphor++: A Combination of Deep Neural Networks and Semantics for Coreference Resolution</a>. In <a href="http://lrec2018.lrec-conf.org/en/">11th edition of the Language Resources and Evaluation Conference (LREC)</a>, Miyazaki, Japan.
                             </li>
                         </ul>
                         <h3>2017</h3>
                         <ul>
                              <li>
-                                Troncy R., Rizzo G., Jameson A., Corcho O., Plu J., Palumbo E., Ballesteros Hermida J.C., Spirescu A., Kuhn K., Barbu C., Rossi M., Celino I., Agarwal R., Scanu C., Valla M., Haaker T. (2017) <a target="_blank" href="publications/Troncy_Plu-JWS2017.pdf.pdf">3cixty: Building Comprehensive Knowledge Bases For City Exploration</a>. In: <a target="_blank" href="https://www.journals.elsevier.com/journal-of-web-semantics/">Journal of Web Semantics (JWS)</a>
+                                Troncy R., Rizzo G., Jameson A., Corcho O., Plu J., Palumbo E., Ballesteros Hermida J.C., Spirescu A., Kuhn K., Barbu C., Rossi M., Celino I., Agarwal R., Scanu C., Valla M., Haaker T. (2017) <a target="_blank" href="publications/Troncy_Plu-JWS2017.pdf">3cixty: Building Comprehensive Knowledge Bases For City Exploration</a>. In: <a target="_blank" href="https://www.journals.elsevier.com/journal-of-web-semantics/">Journal of Web Semantics (JWS)</a>
                             </li>
                             <li>
                                 Plu J., Troncy R., Rizzo G.  (2017) <a target="_blank" href="publications/Plu_Troncy_Rizzo-IC2017.pdf">ADEL : une méthode adaptative de désambiguïsation d'entités nommées</a>. In: <a target="_blank" href="https://pfia2017.greyc.fr/ic/presentation">28ème journées francophones d'Ingénierie des Connaissances (IC'17)</a>
@@ -198,7 +198,7 @@
                         <h3>2012</h3>
                         <ul>
                             <li>
-                                <a target="_blank" href="http://www.pearson.fr/livre/?GCOI=27440100179400">Web de données Méthodes et outils pour les données liées</a>. It is a French book about linked data.
+                                <a target="_blank" href="http://www.pearson.fr/livre/?GCOI=27440100179400">Web de données Méthodes et outils pour les données liées</a>. It is a French book about linked data. (not available anymore)
                             </li>   
                         </ul>
                     </div>
@@ -235,7 +235,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            &copy; 2019 Julien Plu
+                            &copy; <span id="year"></span> — <strong>Julien Plu</strong>
                         </div>
                     </div>
                 </div>
@@ -253,6 +253,10 @@
             e.src='https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-28115938-1','auto');ga('send','pageview');
+        </script>
+        <script>
+          var d = new Date();
+          document.getElementById("year").innerHTML = d.getFullYear();
         </script>
     </body>
 </html>

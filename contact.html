@@ -49,12 +49,9 @@
                 <div id="map-outer" class="col-md-12">
                     <div id="address" class="col-md-4">
                         <address>
-                            <strong>EURECOM</strong><br/>
-                            <strong>School of Engineering & Research Center</strong><br/>
-                            <strong>Multimedia Communications Department</strong><br/>
-                            <strong>Campus SophiaTech</strong><br/>
-                            450 Route des Chappes<br/>
-                            06410 Biot<br/>
+                            <strong>Leboncoin</strong><br/>
+                            85-87 rue du Faubourg Saint-Martin<br/>
+                            75011 Paris<br/>
                             France<br/><br/>
                             <strong>Email:</strong> julien.plu<span id="dummy">REMOVE</span> AT eurecom<span id="dummy">REMOVE</span>.fr
                         </address>
@@ -79,7 +76,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            &copy; 2019 Julien Plu
+                            &copy; <span id="year"></span> — <strong>Julien Plu</strong>
                         </div>
                     </div>
                 </div>
@@ -101,18 +98,22 @@
         </script>
         <script>
             function init_map() {
-                var myLocation = new google.maps.LatLng(43.614386,7.071125);
+                var myLocation = new google.maps.LatLng(48.872921,2.357690);
                 var mapOptions = {
                     center: myLocation,
                     zoom: 14
                 };
                 var marker = new google.maps.Marker({
-                    position: myLocation, title:"EURECOM"
+                    position: myLocation, title:"Leboncoin"
                 });
                 var map = new google.maps.Map(document.getElementById("map-container"), mapOptions);
 		        marker.setMap(map);	
             }
             google.maps.event.addDomListener(window, 'load', init_map);
+        </script>
+        <script>
+          var d = new Date();
+          document.getElementById("year").innerHTML = d.getFullYear();
         </script>
     </body>
 </html>

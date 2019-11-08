@@ -62,7 +62,7 @@
                     <h3>About Me</h3>
                     <div class="col-lg-12">
                         <p>
-                            My name is Julien Plu, I am passionate about different things. My strongest passion is about computers since I had my first one when six years old. Besides computers, I love also sports, like tennis that I practiced 11 years to a pretty high level and scuba diving that I practice since more than 20 years. Another passion is music, I love playing guitar since more than 5 years, I play mainly hard rock and metal music but I also like any kind of other music. As most of the person of my generation, I love video games since my youngest age, any kind of video games. The last but not the least of my passions is, traveling, every year I try to visit two or three countries abroad France, mainly for doing scuba diving.
+                            My name is Julien Plu, I am passionated by different things. My strongest passion is about computers since I had my first one at 6 years old. Besides computers, I love also doing sport, like tennis that I practiced for 11 years and scuba diving that I practice since more than 20 years. Another passion is music, I love playing guitar since more than 5 years, I play mainly hard rock and metal music but I also like any kind of other music. As most of the persons of my generation, I love video games since my youngest age, any kind of video games. The last but not the least of my passions is, traveling, every year I try to visit two or three countries abroad France, mainly for doing scuba diving.
                         </p>
                         <p>
                             This website is about all my acitivities in computer sciences: my projects, my career, my knowledge... If you have any question about its content do not hesitate to contact me.
@@ -165,7 +165,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            &copy; 2017 Julien Plu
+                            &copy; <span id="year"></span> — <strong>Julien Plu</strong>
                         </div>
                     </div>
                 </div>
@@ -176,6 +176,10 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script>
+          var d = new Date();
+          document.getElementById("year").innerHTML = d.getFullYear();
+        </script>
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
